@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gsoap_sample", "gsoap_sample\gsoap_sample.vcxproj", "{FD385CCE-8E25-47EE-A337-33F9F4DF5E00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gsoap_server", "gsoap_server\gsoap_server.vcxproj", "{343C306B-9BFD-4DF3-B9F4-D66620BDE160}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD385CCE-8E25-47EE-A337-33F9F4DF5E00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD385CCE-8E25-47EE-A337-33F9F4DF5E00}.Debug|Win32.Build.0 = Debug|Win32
+		{FD385CCE-8E25-47EE-A337-33F9F4DF5E00}.Release|Win32.ActiveCfg = Release|Win32
+		{FD385CCE-8E25-47EE-A337-33F9F4DF5E00}.Release|Win32.Build.0 = Release|Win32
+		{343C306B-9BFD-4DF3-B9F4-D66620BDE160}.Debug|Win32.ActiveCfg = Debug|Win32
+		{343C306B-9BFD-4DF3-B9F4-D66620BDE160}.Debug|Win32.Build.0 = Debug|Win32
+		{343C306B-9BFD-4DF3-B9F4-D66620BDE160}.Release|Win32.ActiveCfg = Release|Win32
+		{343C306B-9BFD-4DF3-B9F4-D66620BDE160}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
